@@ -1,0 +1,21 @@
+{
+    "token": "put your token here",
+
+    "jobs": [
+        {
+            "channel_id": 1234567890123456789,
+            "message": "hi",
+            "delay": 60
+        },
+        {
+            "channel_id": 1234567890123456789,
+            "message": "hi",
+            "delay": 60
+        },
+        {
+            "channel_id": 1234567890123456789,
+            "message": "hi",
+            "delay": 60
+        }
+    ]
+}
