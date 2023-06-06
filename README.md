@@ -4,7 +4,7 @@ automatically post discord messages in selected channels every x seconds
 i am not responsible for anything that happens to your discord account when using this
 
 ## requirements
-* `pip install rich`
+* `pip install rich aiohttp`
 
 ## usage
 * put your discord token in config.json's "token"
