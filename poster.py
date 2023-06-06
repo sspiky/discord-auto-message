@@ -6,9 +6,9 @@ from rich.console import Console
 
 # rich setup
 console = Console()
-def tprint(content: str):
+def tprint(content: str) -> None:
     now = time.strftime('%r')
-    console.print(f'[bold bright_black]~ {now} |[/] [navajo_white1]{content}[/]')
+    console.print(f'[bold bright_black]~ {now} |[/] [navajo_white1]{content}')
 
 # load config
 with open('config.json') as f:
